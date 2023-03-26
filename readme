@@ -1,0 +1,6 @@
+Business rules voor recommendation engine
+
+Voor de laatste opdracht van structured programming moet er een set regels gemaakt worden om bepaalde data op te filteren, zodanig dat er een nieuwe set aan data ontstaat wat gebruikt kan worden om producten aan te bevelen.
+Er wordt gevraagd om twee verschillende manieren te gebruiken bij het opstellen van deze filtering regels: content filtering en collaborative filtering. Op basis van deze regels en de data uit de bekende database worden nieuwe tabellen aangemaakt met passende aanbevelingen die zo gebruikt kunnen worden.
+De eerste functie, op content filtering gebaseerd, is een tabel die producten selecteert op basis van category vergeleken vanaf viewed before die het dan in de tabel zet als een suggested recommendation.
+Bij de tweede functie, op collaborative filtering gebaseerd, is een tabel die op basis van de viewed_before kijkt welke klant vergelijkbaar is en dan de recommended producten uit de vorige functie meegeeft.
